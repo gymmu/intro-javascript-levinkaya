@@ -57,3 +57,7 @@ function changeTextcolor() {
  
   body.style.color = inputElement.value
 }
+
+
+
+
