@@ -51,3 +51,9 @@ outputElement.textContent =newValue
 
 
 
+function changeTextcolor() {
+  const body = document.querySelector("body")
+  const inputElement = document.querySelector("#input-color")
+ 
+  body.style.color = inputElement.value
+}
